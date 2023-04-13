@@ -1,0 +1,327 @@
+
+
+
+
+/*#topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: pink;
+  text-align: center;
+}
+
+#topnav1 {
+  float: left;
+}
+
+#topnav1 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#topnav1 a:hover {
+  background-color: #111;
+  
+}
+*/
+
+.topnav {
+  overflow: hidden;
+  background-color: #EFB2EF;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: black;
+  color: white;
+}
+
+
+.topnav h1{
+text-align: center;
+font-size: 55px;
+}
+.topnav h2{
+	text-align: center;
+font-size: 55px;
+}
+topnav loginIcon{
+	height: 15px;
+	width: 15px;
+}
+.topnav form{
+	float: center;
+}
+ul h1{
+	text-align: center;
+}
+
+form1 {
+	float: center;
+}
+#section1 {
+	text-align: center;
+	font-style: Arial;
+	font-size: 20px;
+	
+} 
+#image1{
+	float:left;
+	height: 250px;
+	width: 250px;
+}
+	
+#image2{
+	float:left;
+	height: 250px;
+	width: 250px;
+}
+	
+
+.section2{
+	font-size: 20px;
+	font-style: Arial;
+	
+}
+.section2.image1{
+	vertical-align: top;
+	
+}
+.section2.h3{
+	text-align: center;
+	float:center;
+}
+.section3{
+	font-size: 20px;
+	font-style: Arial;
+	
+}
+.section3.image2{
+	vertical-align: top;
+}
+.section3.h4{
+	text-align: center;
+	float:center;
+}
+#image3{
+	float:left;
+	height: 300px;
+	width: 300px;
+}
+.section4{
+	font-size: 20px;
+	font-style: Arial;
+}
+.section4.image3{
+	vertical-align: top;
+}
+.section4.h5{
+	text-align: center;
+	float:center;
+}
+.section5.h2{
+	text-align: center;
+}
+.section5.h3{
+	text-bottom: center;
+}
+
+.section5{
+	font-size: 20px;
+	font-style: Arial;
+
+}
+.section5.image4{
+	vertical-align : top;
+	folat: right;
+}
+form2{
+	background-color: #D3E7E7;
+	height: 350px;
+	width: 950px;
+}
+form3{
+	background-color: #D3E7E7;
+	height: 350px;
+	width: 950px;
+	
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #EFB2EF;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #000000;
+}
+#form{
+	background-color: white;
+	height: 350px;
+	width: 550px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.form{
+	background-color: #D3E7E7;
+	height: 350px;
+	width: 550px;
+}
+#navigation {
+	text-align: center;
+}
+.section9.register{
+	float:left;
+	height: 300px;
+	width: 500px;
+	border-radius: 5px;
+	background-color: green;
+	padding: 10px;
+}
+#login{
+	float:left;
+	height: 300px;
+	width: 500px;
+}
+.header.h1{
+	text-align: center;
+	float: center;
+}
+	
+
+.skinBrightness.tumeric{
+	height: 230px;
+	width: 500px;
+	left: 50%;
+}
+.aloeVera{
+	text-align: center;
+	font-size: 18px;
+}
+.hyaulronic{
+	text-align: center;
+	font-size: 18px;
+}
+
+.retinol{
+	text-align: center;
+	font-size: 18px;
+}
+footer{
+	background-color: #EFB2EF;
+	height: 50px;
+}
+
+.header{
+	text-align: center;
+	font-size: 30px;
+}
+h2{
+	
+}
+.drySkinMask{
+	font-style: calibri;
+	border-right: 15px;
+}
+#tumericMask{
+	height: 210px;
+	width: 30%;
+	float: left;
+	
+}
+.drySkinMask p{
+	left: 80%;
+}
+
+.tumeric h2{
+	text-align: center;
+}
+.tumeric p{
+	text-align: left;
+}
+#oats{
+	height: 230px;
+	width: 30%;
+	float: right;
+	vertical-align: top;
+}
+.remedy2 h2{
+	text-align: left;
+}
+h2{
+	text-align: center;
+}
+#coffee{
+	height: 230px;
+	width: 30%;
+	vertical-align: top;
+}
+	
+.remedy3 h2{
+	text-align: left;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.about{
+	text-align: center;
+	font-size: 18px;
+}
+
+
+#signup{
+	border-radius: 5px;
+  
+  padding: 10px;
+  width: 50%;
+  height: 280px;
+  left: 50%;
+  margin-left: 25%;
+
+  
+}
+#login{
+	border-radius: 5px;
+  
+  padding: 10px;
+  width: 50%;
+  left: 50%;
+  margin-left: 25%;
+
+}

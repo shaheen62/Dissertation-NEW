@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Help my skin form</title>
+<!-- link href='css.css'  rel= "stylesheet" type= "text/css"--> 
+<link rel="stylesheet" type = "text/css" href = "css2.css">
+
+
+</head>
+<body>
+
+
+<header>
+<!--h1>
+Pure Skin
+</h1-->
+
+</header>
+<nav>
+<div class="topnav">
+	<h1>PURE SKIN</h1>
+  <a class="active" href="#home">Home</a>
+  <a href="#Ingredients">Ingredients</a>
+  <a href="#Home Remedites">Home Remedies</a>
+  <form>
+ <input type="search" id="searchBar" name="q"
+   placeholder="Search..."
+   aria-label="Search through site content">
+   </form>
+</div>
+</nav>
+
+
+<div id="form">
+<form id ="form4">
+<form method="post" action="userResponse.php">
+<label for="skinType" name="skintype"> Select your skin type :</label>
+<select name="skin" id="skintype">
+    <option value="Dry">Dry Skin</option>
+    <option value="Oily">Oily Skin</option>
+    <option value="combination">Combination skin</option>
+    <option value="sensitive">Sensitive Skin </option>
+</select>
+  
+<label for = "skinProblem" name="problem"> What are your skin Concerns </label>
+<select name ="problem" id="skinproblem">
+		<option value="Dry">Dryness</option>
+		<option value="acne">Acne</option>
+		<option value="fline">Fine lines and wrinkles </option>
+		<option value="dehydration">Dehydration</option>
+		<option value="hyperpigmentation">Hyperpigmentation</option>
+		<option value="dullSkin"> Dull Skin</option>
+</select>
+ <label for = "skinGoal"> What is your skin goal </label>
+ <select name ="goal" id="skingoal">
+	<option value="hydrate">Hydrated Skin</option>
+	<option value="blemish"> Blemish free</option>
+	<option value="glowing">Glowing Complextion</option>
+	<option value="breakout">Reduce breakouts</option>
+</select>
+<button type="submit" value="Submit" name="upload"> SUbmit</button>
+</form>
+
+
+</div>
+
+<!--?php
+require 'connect.php';
+if (isset($_POST["upload"])) {
+	$skintype = $_POST["skin"];
+	$skinproblem = $_POST["problem"];
+	$skingoal =$_POST ["goal"];
+	
+	$sql = "INSERT INTO form (skinType, skinProblem, skinGoal) VALUES ('$skintype', '$skinproblem', '$skingoal')";
+	 mysqli_query($connection, $sql);
+	"<script> alert('information uploaded successfuly');</script>";
+
+//else {
+	//"<script> alert('information not uploaded');</script>";
+}
+	
+?-->
+
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+
+
+<!DOCTYPE html>
+<!-- ABOUT US PAGE -->
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About Us</title>
+<!-- link href='css.css'  rel= "stylesheet" type= "text/css"--> 
+<link rel="stylesheet" type = "text/css" href = "css2.css">
+
+</head>
+<body>
+<nav>
+<div class="topnav">
+	<h1>PURE SKIN</h1>
+  <a href="homePage1.html">Home Page</a>
+  <a class="active" href="#About US">About US</a>
+   <a href="homeremediesTesting.html">Home Remedies</a>
+  <a href="index.html">Login/Signup</a>
+  <form>
+ <input type="search" id="searchBar" name="q"
+   placeholder="Search..."
+   aria-label="Search through site content">
+   </form>
+</div>
+</nav>
+<section class="about">
+<h2> About US</h2>
+<img src="product.jpg" style=" height: 350px; width: 70%; left: 50%;">
+
+<p>Pure Skin is all about educating users on the different skin types and helping them to <br>
+acieve thir desired skin. Our Help My Skin form lets us find out more information about your <br>
+so that feedback can be provided which will help you finding the right skincare product. Our <br>
+mission is to help users to find the righ skin care product that is tailored to their needs. <br>
+visit our Ingredients page to learn more about the active ingredients that are used in different skincare products</p>
+
+<p> If you have any questions, please email us on 19059556@brookes.ac.uk. We will try to respond <br>
+to you as soon as possible.</p>
+</section>
+
+
+
+
+
+</body>
+</html>
